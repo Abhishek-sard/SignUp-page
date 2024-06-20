@@ -1,0 +1,51 @@
+body{
+    background-color: rgb(229,19,149);
+    overflow: hidden;
+}
+#form{
+    background-color: white;
+    width: 28%;
+    border-radius: 6px;
+    margin: 120px auto;
+    padding: 50px;
+    box-shadow: 10px 10px 5px rgb(82, 11, 77);
+}
+h1{
+    text-align: center;
+}
+input{
+    width: 90%;
+    border: 4px;
+    border-radius: 3px solid;
+    padding: 5px;
+}
+#btn{
+    background-color: rgb(21, 21, 136);
+    color: white;
+    font-size: large;
+    width: 100%;
+    padding: 10px;
+    border-radius: 10px;
+}
+@media screen and (max-width:1350px) {
+    #form{
+        width: 40%;
+        margin-left: none;
+        padding: 40px;
+    }
+    
+}
+@media  screen and (max-width: 1100px) {
+    #form{
+        width: 50%;
+        margin-left: none;
+        padding: 40px;
+    }
+}
+@media  screen and (max-width:700px) {
+    #form{
+        width: 80%;
+        margin-left: none;
+        padding: 40px;
+    }
+}
